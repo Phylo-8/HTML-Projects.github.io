@@ -1,0 +1,234 @@
+.sphead
+{
+	font-size:25px;
+	padding:1%; 
+	margin:0%;
+	font-weight:bold;
+}
+
+.divhead
+{
+	padding:1%;
+	float:left; 
+	width:15%;
+}	
+
+.phead
+{
+	margin-top:0.5%; 
+	padding:4%;
+}
+
+.spanhead
+{
+	margin-left:8%;
+	font-weight:bold;
+}
+
+.divsearch
+{
+	 background-color:lightgrey;
+	 float:left; 
+	 margin:5px;
+	 margin-left:5%;
+	 padding-right:25%; 
+	 padding-left:2%; 
+	 border-radius:35px;
+}
+.float{
+	
+	float:left;
+}
+.search
+{
+	font-size:15px; 
+	float:left;
+	padding-top:5%; 
+	margin-left:350%;
+	font-weight:bold;
+}
+
+.sidebar
+{
+	width:10%;
+	height:1000px; 
+	float:left; 
+	margin:1%; 
+	padding:2%;
+}
+
+.sidehead
+{
+	margin-top:10%; 
+	padding-left:5%;
+	font-size:20px;
+	color:grey;
+	font-weight:bold;
+}
+
+.Browse
+{
+	margin-top:10%;
+	padding-left:5%;
+}
+
+.lib
+{
+	clear:both;
+}
+
+.lab
+{
+	margin-top:4%;
+	padding-left:5%;
+	float:left;
+}
+
+.labimg
+{
+	 height:30px; 
+	 width:20px;
+	 float:left;
+}
+
+.main
+{
+	width:75%; 
+	height:970px; 
+	float:left;
+	margin:1%;
+}
+
+.label
+{
+	margin:1%; 
+	font-size:20px; 
+	font-weight:bold;
+}
+
+.mdiv1
+{
+	width:95%;
+	padding:1%;
+	margin:1%; 
+	height:170px;
+}
+
+.song
+{
+	   width:15%; 
+	   height:160px;
+	   float:left;
+	   margin-left:5%;
+}
+
+.spanlab1
+{
+	padding:5%; 
+	margin:2%;
+}
+
+.spanlab2
+{
+	padding:5%;
+	margin-left:2%;
+	color:grey;
+}
+
+.song2
+{
+	width:15%; 
+	height:160px;
+	float:left;
+	margin-left:2%;
+}
+
+.radio
+{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+}
+
+.footer
+{
+	width:15%; 
+	height:420px; 
+	margin:1%;
+	float:left;
+}
+
+.f1
+{
+	margin-top:1%; 
+	padding-left:5%;
+}
+
+.f2
+{
+	margin-top:0%; 
+	padding-left:5%;
+}
+
+.fhead
+{
+	margin-top:10%;
+	padding-left:5%;
+	font-size:20px; 
+	color:grey; 
+	font-weight:bold;
+}
+
+.song3
+{
+	width:15%; 
+	height:160px;
+	float:left; 
+	margin-left:5%;
+}
+
+.divleft
+{
+	float:left; 
+	width:30%;
+}
+
+.div1
+{
+	 margin-left:15%; clear:both; font-weight:bold;
+}
+
+.div2
+{
+	margin-left:10%; font-weight:bold;
+}
+
+.begin
+{
+	width:95%; padding:1%;margin:1%; height:170px;
+}
+
+.songmain
+{
+	width:15%; height:160px; float:left; margin-left:2%;
+}
+
+.mainbody
+{
+	width:100%; height:60px; float:left;
+}
+
+.fmain
+{
+	  width:82%; height:500px; float:left; margin:1%;
+}
+
+.sidem
+{
+	  width:5%; float:left; height:400px; margin:1%;>
+}
+
+.p
+{
+	margin-top:100%; padding:0%;font-weight:bold;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE HTML/>
+
+<html>
+	<head>
+		<style>
+			body{
+				padding:0%;
+				margin:0%;
+			}
+		</style>
+	</head>
+	<body>
+		<main style="background-color:black">
+			<form style="width:42%; margin:auto; background-color:white;" method="POST">
+				<fieldset>
+					<div style="text-align:center;margin-botton:0px;">
+						<h1>Student Registration form</h1>
+					</div>
+					<div style="margin-top:4%;">
+						<label >Roll no :</label>
+						<input type="number" placeholder="Enter your Roll no" style="width:72%;margin-left:15%; padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label >Full Name : </label>
+						<input type="text" placeholder=" First Name" style="width:%; margin-left:11%; padding:1%;">
+						<input type="text" placeholder=" Last Name" style="width:%; padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label >Father's Name :</label>
+						<input type="text" placeholder="Enter your father's name" style="width:72%;margin-left:6%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label >Birthday :</label>
+						<input type="date" id="birthday" name="birthday" style="width:72%;margin-left:13%; padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label >Mobile no. :</label>
+						<input type="number"  style=" margin-left:10%; width:72%; padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Email :</label>
+						<input type="text" placeholder="Enter your Email" style="width:72%;margin-left:16%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Password :</label>
+						<input type="password" placeholder="Password" style="width:72%;margin-left:11%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Gender :</label>
+						<input type="radio" id="male" value="male" name="male" style="margin-left:15%;">
+						<label for="male">Male</label>
+						
+						<input type="radio" id="female" value="female" name="male" style="margin-left:10%;">
+						<label for="female">Female</label>
+						
+						<input type="radio" id="other" value="other" name="male" style="margin-left:10%;">
+						<label for="other">Other</label>
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Department :</label>
+						<input type="checkbox" style="margin-left:9%;">
+						<label>CSE</label>
+						<input type="checkbox" style="margin-left:5%;">
+						<label>IT</label>
+						<input type="checkbox" style="margin-left:5%;">
+						<label>ECE</label>
+						<input type="checkbox" style="margin-left:5%;">
+						<label>Civil</label>
+						<input type="checkbox" style="margin-left:5%;">
+						<label>Mech</label>
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Fees :</label>
+						<input type="range" id="fes" name="fes" min="0" max="50" style="width:70%;margin-left:17%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Student Photo :</label>
+						<input type="file"  style="width:%;margin-left:5%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">City:</label>
+						<input type="text" placeholder="Enter your City" style="width:72%;margin-left:18%;padding:1%;">
+					</div>
+					<div style="margin-top:4%;">
+						<label style="">Address:</label>
+						<textarea style="margin-left:13%; width:72%"></textarea>
+					</div>
+					<br>
+					<div>
+						<label for="course">Courses:</label>
+						<select name="course" id="course" style="margin-left:13%;">
+							<option value="AI" selected>AI</option>
+							<option value="Full stack">Full stack</option>
+							<option value="Cyber Security">Cyber security</option>
+							<option value="Python">Python</option>
+						</select>
+					</div>
+					<div style="margin-top:10%;">
+						<input type="reset" style="width:20%; margin-left:20%; padding:1%; background-color:black; color:white; border-radius:10px; ">
+					    <input type="submit" style="width:20%; margin-left:20%; padding:1%; background-color:navy; color:white; border-radius:10px; " >
+					</div>
+				
+				</fieldset>
+			</form>	
+		</main>
+	</body>
+</html>

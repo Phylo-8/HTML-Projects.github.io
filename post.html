@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manali Diaries • Aesthetic Vlog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --cream: #FDFCF5; --dark: #1A1A1D; --gold: #C9A063; --gray: #888; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: var(--dark); color: var(--cream); margin: 0; line-height: 1.8; }
+        
+        /* Full-Screen FIXED background */
+        .cinematic-bg {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+            background: url('https://images.unsplash.com/photo-1615814040925-5f21da90a071?q=80&w=1600') center/cover no-repeat;
+            opacity: 0.3; z-index: -1;
+        }
+
+        .header-content {
+            height: 90vh; display: flex; flex-direction: column; 
+            align-items: center; justify-content: center; text-align: center;
+            padding: 0 10%;
+        }
+        .header-content h1 { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 5rem; margin: 0; }
+        .ep-tag { color: var(--gold); text-transform: uppercase; font-size: 1rem; letter-spacing: 3px; margin-bottom: 20px; font-weight: 600; }
+        .meta { color: var(--gray); font-style: italic; margin-top: 10px; }
+
+        /* The Content (Typing your Vlog) */
+        .content-container { max-width: 800px; margin: 0 auto; padding: 60px 20px; }
+
+        .vlog-segment { margin-bottom: 80px; position: relative; }
+        .vlog-segment::before {
+            content: ''; position: absolute; left: -30px; top: 10px;
+            width: 3px; height: 100%; background-color: var(--gold); opacity: 0.3;
+        }
+        
+        .timestamp { font-family: monospace; color: var(--gold); font-size: 0.9rem; letter-spacing: 2px; }
+        .segment-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 400; margin: 10px 0 20px; }
+        
+        .vlog-segment p { font-size: 1.15rem; color: #ccc; font-weight: 300; margin-bottom: 30px; }
+        .vlog-segment img { width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); margin-top: 10px; }
+
+        /* Small Back Button */
+        .back-link { position: fixed; top: 30px; left: 30px; color: var(--cream); text-decoration: none; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; border-bottom: 1px solid transparent; transition: 0.3s; z-index: 100;}
+        .back-link:hover { border-bottom: 1px solid var(--gold); color: var(--gold); }
+    </style>
+</head>
+<body>
+
+    <div class="cinematic-bg"></div>
+    <a href="index.html" class="back-link">← The Archives</a>
+
+    <header class="header-content">
+        <div class="ep-tag">Ep 01 // Himachal Pradesh</div>
+        <h1>Lost in the Snow</h1>
+        <p class="meta">Location: Manali • Solang Valley | January 2026</p>
+    </header>
+
+    <div class="content-container">
+        
+        <div class="vlog-segment">
+            <span class="timestamp">00:15 / THE ARRIVAL</span>
+            <h2 class="segment-title">The First Glimpse</h2>
+            <p>I woke up in the luxury sleeper bus just as the sun was hitting the peaks. The winding roads were terrifying, but look at this view. I checked into my wood-paneled cabin and the air was crisp, almost sweet. Manali is already magical.</p>
+            <img src="https://images.unsplash.com/photo-1594931086395-8a24c730a84e?q=80&w=1200" alt="Manali View">
+        </div>
+
+        <div class="vlog-segment">
+            <span class="timestamp">02:45 / SOLANG</span>
+            <h2 class="segment-title">Whiteout at Solang Valley</h2>
+            <p>We drove down to Solang Valley for some skiing. I have never seen snow this deep! The entire valley was painted white. I failed miserably at skiing, but the maggi point at the top made everything better.</p>
+            <img src="https://images.unsplash.com/photo-1615814040925-5f21da90a071?q=80&w=1200" alt="Snow solang">
+        </div>
+
+        <div class="vlog-segment">
+            <span class="timestamp">06:10 / CAFE HOPPING</span>
+            <h2 class="segment-title">Old Manali Vibes</h2>
+            <p>Spent the evening exploring the cafes in Old Manali. The mood changes completely after sunset. Fireplaces, hot chocolate, and some live acoustic music. This is exactly what I needed.</p>
+            <img src="https://images.unsplash.com/photo-1615871239106-f13b6ebf4b00?q=80&w=1200" alt="Cafe evening">
+        </div>
+
+    </div>
+
+</body>
+</html>

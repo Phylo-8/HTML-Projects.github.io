@@ -1,0 +1,89 @@
+.main
+{
+	width:100%;
+	height:2000px;
+	background-color:black;
+}
+
+.sphead
+{
+	font-size:25px; 
+	color:white;
+	padding:1%;
+}
+
+.search
+{
+	background-color:grey;
+	margin-left:15%; 
+	padding-right:20%; 
+	padding-left:2%;
+	border-radius:35px;
+}
+
+.stxt
+{
+	 color:white; 
+	 font-size:15px; 
+	 padding:10%;
+	 margin:5%;
+}
+
+.img1
+{
+	height:30px;	
+	width:30px; 
+	padding:1%;
+}
+
+.float
+{
+	float:left;
+}
+
+.create
+{
+	color:white;
+	font-size:25px;
+	margin:15px;
+	margin-left:10%;
+}
+
+.notify
+{
+	height:30px;
+	width:30px;
+	margin:15px;
+	border-radius:20px;
+}
+
+.yticon
+{
+	height:40px; 
+	width:40px; 
+	padding:0%; 
+	border-radius:25px;
+}
+
+.mic
+{
+	height:35px;
+	width:35px;
+	margin:5px;
+}
+
+.user
+{
+	height:30px;
+	width:30px;
+	margin:15px; 
+	margin-left:10px; 
+	border-radius:20px;
+}
+
+.sideicon
+{
+	height:50px; 
+	width:50px;
+	margin:10%;
+}
